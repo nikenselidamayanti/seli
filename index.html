@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Niken Seli Damayanti</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<style>
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+.menu {display: none}
+.bgimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("KOSMETIK.jpg");
+  min-height: 90%;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+    <a href="#" class="w3-bar-item w3-button">HOME</a>
+    <a href="#product" class="w3-bar-item w3-button">PRODUCT</a>
+    <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+    <a href="#myMap" class="w3-bar-item w3-button">CONTACT</a>
+  </div>
+</div>
+  
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-padding">
+    <span class="w3-tag w3-xlarge">Open from 10am to 12pm</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white w3-hide-small" style="font-size:100px">beauty<br>shop</span>
+    <span class="w3-text-white w3-hide-large w3-hide-medium" style="font-size:60px"><b>beauty<br></b>shop</span>
+    <p><a href="#product" class="w3-button w3-xxlarge w3-black">Let me see the product</a></p>
+  </div>
+</header>
+
+<!-- Menu Container -->
+<div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="product">
+  <div class="w3-content">
+  
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">THE PRODUCT</h1>
+    <div class="w3-row w3-center w3-border w3-border-dark-grey">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'LIP PRODUCT');" id="myLink">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">LIP PRODUCT</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'BASE MAKE UP');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">BASE MAKE UP</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'PERONA MATA');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">PERONA MATA</div>
+      </a>
+    <a href="javascripy:void(0)" onclick="openMenu(event, 'EYES PRODUCT');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">EYES PRODUCT</div>
+    </a>
+    </div>
+
+    <div id="LIP PRODUCT" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>lip serum</b> <span class="w3-right w3-tag w3-dark-grey w3-round">RP.103.000,00</span></h1>
+      <p class="w3-text-grey">strowberry</p>
+      <hr>
+   
+      <h1><b>lip cream</b> <span class="w3-right w3-tag w3-dark-grey w3-round">RP.96.400,00</span></h1>
+      <p class="w3-text-grey">cappucino,scarlet,espresso</p>
+      <hr>
+      
+      <h1><b>lipstik</b> <span class="w3-right w3-tag w3-dark-grey w3-round">RP.91.390,00</span></h1>
+      <p class="w3-text-grey">merah</p>
+      <hr>
+
+      <h1><b>liptint</b> <span class="w3-right w3-tag w3-dark-grey w3-round">RP.54.055,00</span></h1>
+      <p class="w3-text-grey">blody</p>
+      <hr>
+
+      <h1><b>lipgloss</b> <span class="w3-tag w3-red w3-round">Hot!</span><span class="w3-right w3-tag w3-dark-grey w3-round">RP.58.900,00</span></h1>
+      <p class="w3-text-grey">strowberry</p>
+      <hr>
+
+    </div>
+
+    <div id="BASE MAKE UP" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>fondation</b> <span class="w3-tag w3-grey w3-round">Popular</span> <span class="w3-right w3-tag w3-dark-grey w3-round">RP.189.000,00</span></h1>
+      <p class="w3-text-grey">light,medium</p>
+      <hr>
+   
+      <h1><b>cushion</b> <span class="w3-right w3-tag w3-dark-grey w3-round">RP.280.000,00</span></h1>
+      <p class="w3-text-grey">wafle,mufin,honey</p>
+      <hr>
+      
+      <h1><b>skintint</b> <span class="w3-right w3-tag w3-dark-grey w3-round">RP.150.000,00</span></h1>
+      <p class="w3-text-grey">perle</p>
+      <hr>
+
+      <h1><b>primer</b> <span class="w3-right w3-tag w3-dark-grey w3-round">RP.115.000,00</span></h1>
+    </div>
+
+
+    <div id="PERONA MATA" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>eyeshadow</b> <span class="w3-tag w3-grey w3-round">Seasonal</span><span class="w3-right w3-tag w3-dark-grey w3-round">RP.120.000,00</span></h1>
+      <p class="w3-text-grey">shimmer,metalik</p>
+      <hr>
+   
+      <h1><b>blush on</b> <span class="w3-right w3-tag w3-dark-grey w3-round">RP.80.000,00</span></h1>
+      <p class="w3-text-grey">pink,peach</p>
+      <hr>
+  </div>
+
+  <div id="EYES PRODUCT" class="w3-container menu w3-padding-32 w3-white">
+    <h1><b>eyeliner</b> <span class="w3-tag w3-grey w3-round">Seasonal</span><span class="w3-right w3-tag w3-dark-grey w3-round">RP.95.000,00</span></h1></span></h1>
+    <p class="w3-text-grey">hitam,coklat</p>
+      <hr>
+
+    <h1><b>maskara</b> <span class="w3-tag w3-grey w3-round">Seasonal</span><span class="w3-right w3-tag w3-dark-grey w3-round">RP.97.000,00</span></h1></span></h1>
+    <p class="w3-text-grey">volume,long</p>
+      <hr>
+      
+  </div>
+</div>
+
+<!-- About Container -->
+<div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="about">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">About</h1>
+    <p>The beauty shop that provides various cosmetics and skincare that are halal and BPOM at affordable prices</p>
+    <p><strong>The owner?</strong> Mrs. Niken Seli Damayanti<img src="icon.png" style="width:150px" class="w3-circle w3-right" alt="owner"></p>
+    <p>We are proud of our interiors.</p>
+    <img src="toko.jpg" style="width:100%" class="w3-margin-top w3-margin-bottom" alt="Restaurant">
+    <h1><b>Opening Hours</b></h1>
+    
+    <div class="w3-row">
+      <div class="w3-col s6">
+        <p>Mon & Tue CLOSED</p>
+        <p>Wednesday 10.00 - 24.00</p>
+        <p>Thursday 10:00 - 24:00</p>
+      </div>
+      <div class="w3-col s6">
+        <p>Friday 10:00 - 12:00</p>
+        <p>Saturday 10:00 - 23:00</p>
+        <p>Sunday Closed</p>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<!-- Image of location/map -->
+<img src="lokasi.jpg" class="w3-image w3-greyscale" style="width:100%;" id="myMap">
+
+<!-- Contact -->
+<div class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Contact</h1>
+    <p>cari alamat kami dibawah ini atau hubungi nomor ini 085643307347</p>
+    <p><span class="w3-tag">FYI!</span> jalan desa tragung,dukuh segunting,desa tragung,rt/rw 04/03,kandeman,batang,jawa tengah,indonesia .</p>
+    <p class="w3-xxlarge"><strong>Reserve</strong> tulis dan kirim pesanan anda:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Nama pesanan" required name="Nama pesanan"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="jumlah pesanan" required name="jumlah pesanan"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="tanggal dan waktu" required name="tanggal" value="2024-10-2T10:00"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="catatan" required name="catatan"></p>
+      <p><button class="w3-button w3-light-grey w3-block" type="submit">kirim pesan</button></p>
+    </form>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-48 w3-xxlarge">
+  <p>Powered by <a href="https://www.instagram.com/nknslidmynti_" title="W3.CSS" target="_blank" class="w3-hover-text-blue">Niken Seli</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-red";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
